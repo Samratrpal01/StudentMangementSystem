@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:bisque;
+    background-image: url("Result.avif");
+    background-position: center center;
+    background-size: cover;
+   
+
+}
+
+.title{
+    
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color:chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    background-color:orange;
+}
+
+
+.StudentRecord{
+    background-color: aqua;
+    text-align: center;
+    
+    
+   
+}
+
+
+body {
+    background-color: #f9f9fa
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:1692.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 5rem
+}
+
+.card {
+    background:#fff;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+  
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(19, 24, 44, .03);
+    border-bottom: 1px solid rgba(19, 24, 44, .125)
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0
+}
+
+card-footer,
+.card-header {
+    background-color: transparent;
+    border-color: rgba(160, 175, 185, .15);
+    background-clip: padding-box
+}
+
+.StudentRecord{
+    justify-content: center;
+    min-height: 80vh;
+    border: none;
+    background-image: url('https://thumbs.dreamstime.com/z/full-length-portrait-confident-college-students-displaying-blank-billboard-against-white-background-full-length-portrait-108545744.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.row{
+    background-color:lightgreen;
+}

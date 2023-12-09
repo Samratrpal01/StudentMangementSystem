@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    
+    background-color:bisque;
+    background-image:url("Dashboard.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    
+    
+}
+
+
+
+.title{
+    
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color:chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    background-color:orange;
+}
+
+.row{
+    display: flex;
+    align-items: center; /* Vertically center elements */
+    justify-content: center;
+    height: max-content;
+}
+
+.tabledata {
+    display: flex;
+    
+    align-items: center; /* Vertically center elements */
+    justify-content: center; /* Horizontally center elements */
+    /* Just for visualization */
+}
+
+.subTitle {
+    text-align: center;
+    /* Center the content within the div */
+}
+
+h3 {
+    margin: 0;
+    background-color:rgb(255, 183, 0);
+    width: max-content;
+    font-family:Mont;
+}
+
+table{
+    border: 1px solid;
+    text-align: center;
+ 
+}
+
+.operation
+{   display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding:3px;
+    align-items: center;
+   
+    color: red;
+    font-size: 1.3rem;
+}
+
+#addStudent{
+    position: absolute;
+    margin-left:10px;
+    right:30px;
+    width:20%;
+   
+}
+
+
+#addStudentModalLabel{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    background-color: #F9EBB2;
+}
+
+th{
+    background-color: #ef850c;
+    color: #fff; 
+}

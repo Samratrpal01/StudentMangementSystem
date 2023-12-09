@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="Student.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <script src="Student.js"></script>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+    <div class="title">
+        <h1>Result Management System</h1>
+    </div>
+
+    
+    <div class="register-photo">
+        <div class="form-container">
+        <div class="image-holder"></div>
+        <form id="studentForm">
+            <b><span id="error" class="error-message"></span></b>
+            <h2 class="text-center"><strong>Student</strong> Login</h2>
+            <div class="form-group"><input class="form-control" type="number" id="RollNo" name="RollNo" placeholder="Roll No"></div>
+            <div class="form-group"><input class="form-control" type="date" id="DateOfBirth" name="DateOfBirth" placeholder="17-Aug-2023"></div>
+            <div class="form-group"><button class="btn btn-success btn-block" type="button" onclick="getResult()">Get Result</button></div>
+            <a class="already" href="/HomePage">Go Back To Portal</a>
+        </form>
+        </div>
+        </div> 
+
+    
+</body>
+</html>
